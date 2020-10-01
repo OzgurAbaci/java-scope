@@ -6,5 +6,11 @@ public class MainOne {
 
         Person sjaak = new Person("Nick");
 
+        sjaak.setAge(30);
+        sjaak.ageOneYear();
+        System.out.println(sjaak.getAge());
+
     }
+
+
 }
